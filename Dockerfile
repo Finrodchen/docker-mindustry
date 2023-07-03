@@ -1,4 +1,4 @@
-FROM amd64/alpine:20230329
+FROM arm64v8/alpine
 RUN apk update && \
     apk add --no-cache \
         openjdk16-jre-headless=16.0.2_p7-r4
